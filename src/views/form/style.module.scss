@@ -1,0 +1,19 @@
+form.form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+
+form.form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+form.form label {
+  padding: 0.7rem;
+}
+
+form.form input[type="submit"] {
+  width: 20%;
+}
