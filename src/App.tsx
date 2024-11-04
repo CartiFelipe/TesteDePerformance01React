@@ -1,8 +1,7 @@
 import "./styles/app.scss";
 import Routes from "./routes/Index";
-
+import "./global.css";
 function App() {
-  console.log("Olá, Caio!");
   return <Routes />;
 }
 
