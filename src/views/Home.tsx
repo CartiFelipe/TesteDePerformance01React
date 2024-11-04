@@ -6,8 +6,12 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Bottão material ui</h1>
-      <ButtonComponent props={undefined}>{label}</ButtonComponent>
+      <h1>Desenvolvimento web com react (Home)</h1>
+      <hr />
+      <h1>Bottão material ui abaixo : </h1>
+      <ButtonComponent sx={{ margin: "0.7rem" }} props={undefined}>
+        {label}
+      </ButtonComponent>
     </div>
   );
 };
