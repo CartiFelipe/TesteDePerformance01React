@@ -5,16 +5,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { Protected } from "./Protected";
 import Home from "../views/Home";
 import SignsIn from "../views/SignsIn";
+import Dashboard from "../views/Dashboard";
+import Rootlayout from "../views/home/Rootlayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/">
-      <Route element={<Protected />}>
-        <Route index element={<Home />} />
-      </Route>
+    <Route path="/" element={<Rootlayout />}>
+      <Route index element={<Home />} />
+      <Route path="dashboard" element={<Dashboard />} />
       <Route path="signin" element={<SignsIn />} />
     </Route>
   )

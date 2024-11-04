@@ -1,18 +1,7 @@
-import { useState } from "react";
-import ButtonComponent from "../components/button/Index";
+import style from "./style.module.css";
+import { Outlet, Link, NavLink } from "react-router-dom";
 
 const Home = () => {
-  const [label, setLabel] = useState("Clique em mim");
-
-  return (
-    <div>
-      <h1>Desenvolvimento web com react (Home)</h1>
-      <hr />
-      <h1>Bottão material ui abaixo : </h1>
-      <ButtonComponent sx={{ margin: "0.7rem" }} props={undefined}>
-        {label}
-      </ButtonComponent>
-    </div>
-  );
+  return <h1>home</h1>;
 };
 export default Home;

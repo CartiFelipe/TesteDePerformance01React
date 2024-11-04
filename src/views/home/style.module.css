@@ -1,0 +1,41 @@
+div.mainContainer {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f8f8f8;
+
+  border: 1px solid;
+
+  height: 10%;
+}
+
+main.content {
+  height: 80%;
+}
+
+footer.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f8f8f8;
+
+  border: 1px solid;
+
+  height: 10%;
+}
+
+ul.navUl {
+  display: flex;
+  list-style: none;
+
+  gap: 1rem;
+}
